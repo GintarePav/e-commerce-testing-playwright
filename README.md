@@ -104,3 +104,25 @@ Since the tests were written under time constrains, there are definite areas for
 1. Another issue is the availability of elements during full-speed testing. Sometimes a test may end in failure because the UI is not able to catch up with the actions a test carries out. This should be solved by spending more time on learning locator selection and ensuring their availability.
 
 1. Once the issues above have been covered, it would be possible to move on to implementing [page object models](https://playwright.dev/docs/pom);
+
+
+## Scenarios from the Task Description
+1. Scenario one:
+- Using navigation menu, find mens Hoodies & Sweatshirts section.
+- Check/Assert that the displayed number of jackets matches the selected number of jackets displayed per page.
+- Select “Frankie Sweatshirt” and open its details.
+- Select size, colour and quantity.
+- Add product to cart and check that cart icon is updated with product quantity.
+- Open cart and check if product match the one You added to the cart.
+- Proceed to checkout
+- Complete the order.
+
+2. Scenario two:
+- Using navigation menu, find women pants section.
+- Filter section to show the cheapest products available.
+- Select the cheapest pants and add them to the cart.
+- Add 2 more products to the cart. Check that cart icon is updated with each product.
+- Remove product from the cart.
+- Proceed to checkout.
+- Add product to the cart from suggested products.
+- Complete the order.
