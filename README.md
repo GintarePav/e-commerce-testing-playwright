@@ -105,8 +105,18 @@ Since the tests were written under time constrains, there are definite areas for
 
 1. Once the issues above have been covered, it would be possible to move on to implementing [page object models](https://playwright.dev/docs/pom);
 
+## Additional Information
+This project was done as per the requirements of a task.
 
-## Scenarios from the Task Description
+### Task Requirements
+- Create a basic automated test suite to test the online shop following the scenarios given below.
+- Use a programming language of your choice.
+- Use one of the following frameworks: _Selenium, Cypress, Playwright, Codeception_.
+- Use asserts.
+- Document the project in _README.md_.
+- Store the project in a public Git repository.
+
+#### Scenarios from the Task Description
 1. Scenario one:
 - Using navigation menu, find mens Hoodies & Sweatshirts section.
 - Check/Assert that the displayed number of jackets matches the selected number of jackets displayed per page.
